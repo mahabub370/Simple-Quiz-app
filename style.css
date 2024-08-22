@@ -8,4 +8,68 @@
 html, body{
     width: 100%;
     height: 100%;
+    background-color: #001e4d;
+}
+
+.app{
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+
+.app h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #001e4d;
+    border-bottom: 1px solid #3333;
+    padding-bottom: 30px;
+
+}
+
+.app .quiz{
+    padding: 20px 0;
+}
+
+.app .quiz h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #001e4d;
+    
+}
+
+.app .quiz .btn{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #2222;
+    font-weight: 500;
+    color: #222;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.app .quiz .btn:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+.app .quiz #next-btn{
+    width: 150px;
+    margin: 20px auto 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #001e4d;
+    cursor: pointer;
+    text-align: center;
+    display: none;
 }
